@@ -1,0 +1,3 @@
+﻿E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(MyOpenGLDemo.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  LINK : 缺少程序数据库 E:\source\repos\MyOpenGLDemo01\x64\Debug\MyOpenGLDemo01.pdb；正在执行完全链接
+  MyOpenGLDemo01.vcxproj -> E:\source\repos\MyOpenGLDemo01\x64\Debug\MyOpenGLDemo01.exe
