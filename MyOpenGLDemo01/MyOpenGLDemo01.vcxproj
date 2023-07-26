@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\AppData\glad\src\glad.c" />
+    <ClCompile Include="hello_triangle_indexed.cpp" />
     <ClCompile Include="hello_window.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

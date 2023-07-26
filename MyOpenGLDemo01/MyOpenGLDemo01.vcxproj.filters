@@ -13,13 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\1.getting_started">
+      <UniqueIdentifier>{47ab5d53-a061-4361-b547-6a372f5f3ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1.getting_started\1.1.hello_window">
+      <UniqueIdentifier>{6e716cfb-201e-49b5-980b-8a4bb54ba846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1.getting_started\2.1.hello_triangle">
+      <UniqueIdentifier>{c450d474-e364-422b-9fb1-c08d9142df24}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="hello_window.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\AppData\glad\src\glad.c">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_window.cpp">
+      <Filter>源文件\1.getting_started\1.1.hello_window</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_triangle_indexed.cpp">
+      <Filter>源文件\1.getting_started\2.1.hello_triangle</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
